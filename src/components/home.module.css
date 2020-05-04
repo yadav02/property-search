@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    font-family: 'Livvic', sans-serif;
+}
+.backGround{
+  width: 100%;
+  height: 100vh; 
+  background-image: url(../img/BG_Image.png);
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+}
+
+.overlay{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 50%;
+  background: #131B47;
+}
+h1{
+  display: flex;
+  color: white;
+  position: relative;
+  left:6%;
+}
+.topbar1 {
+    display: flex;
+}
+.topbar{
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    left: 22%;
+    top:-10.7%;
+    
+}
+ .topbar a{
+    color: white;
+    padding: 1.5%;
+    font-family: 'Livvic', sans-serif;
+    cursor: pointer;
+
+}
+.topbar a:hover{
+    color: #4AC376;
+    border-bottom: 3px solid #4AC376;
+
+}
+.profileimg{
+    position: absolute;
+    top:12%;
+    left: 72%;
+    width: 3%;
+    height: 70%;
+    border-radius: 50%;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 178%;
+    position: relative;
+    right: 2%;
+    top:-1%;
+}
+.heading2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+    right: -5%;
+    top: -6%;
+
+}
+.propertyBg{
+    width: 49%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+    left: 30%;
+    top: -3%;
+    border-radius: 1.5%;
+}
+.searchBox{
+    width: 50%;
+    position: relative;
+    top:8%;
+    right: 7%;
+}
+.searchBox input[type="text"]{
+    width: 163%;
+    height: 16%;
+    border: none;
+    outline: none;
+    font-size: 110%;
+}
+.hr1{
+    position: relative;
+    top: 5.5%;
+    width: 199%;
+    right: 36%;
+    border: solid 1px #e1e6e1;
+}
+.vl{
+    border-left: 2px solid #e1e6e1;
+    height: 50px;
+    position: relative;
+    right: 11%;
+    top: -21%;
+}
+.priceWrap{
+    display: flex;
+    justify-content: center;
+    color: #696969;
+    position: absolute;
+    left: 3%;
+    top: 36%;
+    font-size: 16px;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    color: #4AC376;
+    position: absolute;
+    right: 3%;
+    top: 36%;
+    font-size: 16px;
+}
+hr{
+    position: absolute;
+    top: 60%;
+    width: 90%;
+    border: solid 2px #DCDCDC;
+}
+.bedsHeading{
+    display: flex;
+    justify-content: center;
+    color: #696969;
+    position: absolute;
+    left: 3%;
+    top: 73%;
+    font-size: 16px;
+
+}
+.container{
+    display: flex;
+    text-align: center;
+     position: absolute;
+     top: 71%;
+     left:14%;
+
+}
+.btn{
+    border: 2px solid #e6eaec;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    overflow: hidden;
+    outline: none;
+
+    top: 77%;
+    padding: 8px 17px;
+    margin: 15px;
+    background: none;
+    border-radius: 7%;
+}
+.btn:hover{
+    color: white;
+    background-color: #4AC376;
+}
+.topbar h4{
+    color: white;
+    position: absolute;
+    left: 65%;
+}
