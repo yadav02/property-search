@@ -15,29 +15,20 @@ export default class home extends Component {
                <a>Market Insight</a>
                <a>About Us</a>
                <a>Contact</a>
-               <h4>Jhon Doe</h4>
+               <h4>John Doe</h4>
                <img src={profileLogo} className={classes.profileimg} alt="logo" />
             </div>
           <div className={classes.heading}>
               <h1>Connecting People & Property</h1>
           </div>
-          <div className={classes.heading2}>
+        <div className={classes.heading2}>
           <h3>Make your deram home your own home</h3>
         </div>
         <div className={classes.propertyBg}>
         <div className={classes.searchBox}>
-        <input type="text" placeholder="Search by city,neighborhod, address or zipecode" />
-        <i class="fas fa-filter" style={{
-          color: "#4AC376",
-          position: "absolute",
-          right: "119%",
-          top: "5%",
-        fontSize:"183%"}}></i>
-        <i class="fas fa-search" style={{color: "#011689",
-        position: "absolute",
-        left: "147%",
-        top: "5%",
-      fontSize:"173%"}}></i>
+      <input type="text" placeholder="Search by city,neighborhod, address or zipecode" />
+        <i class="fas fa-filter" style={{color: "#4AC376",position: "absolute",right: "119%",top: "5%",fontSize:"183%"}}></i>
+        <i class="fas fa-search" style={{color: "#011689",position: "absolute",left: "147%",top: "5%",fontSize:"173%"}}></i>
         <hr className={classes.hr1}/>
         <div className={classes.vl}></div>
         </div>
